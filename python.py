@@ -112,20 +112,67 @@
 # print("you can enter the program" if percentage > 75 else "you cant enter the program")
 
 
-username = "rahulrangu"
-password = "Rahul@123"
+# username = "rahulrangu"
+# password = "Rahul@123"
 
-a = input("Enter your username: ")
-b = input("Enter your password: ")
+# a = input("Enter your username: ")
+# b = input("Enter your password: ")
 
-# print("Login Successfull" if a == username and b == password else "Login Failed")
+# # print("Login Successfull" if a == username and b == password else "Login Failed")
 
-if(a == username and b == password):
-    print("Login Successfull")
-else:
-    print("Login Failed")
-
-
+# if(a == username and b == password):
+#     print("Login Successfull")
+# else:
+#     print("Login Failed")
 
 
 
+
+#range
+# a = range(10)
+# print(a)
+# print(list(a))
+# print(tuple(a))
+# print(set(a))
+
+
+
+
+
+#for loop
+# a = [13, 29, 33, 44, 55]
+# for i in a:
+    # if(i % 2 == 0):
+    #     print("Even:", i)
+    # else:
+    #     print("Odd:", i)
+    
+    
+# to get duplicate values in one list 
+# a = [1,2,3,1,4,5]
+# b = len(a)
+# for i in range(0,b):
+#     for j in range(i+1,b):
+#         if(a[i] == a[j]):
+#             print("Duplicate found:", a[i], "at indices", i, "and", j)
+            
+            
+# # a = [1,2,3,4,5,]
+# # print(len(a))
+
+
+
+# #while
+# a = int(input("Enter the number:"))
+# while(a < 20):
+#     print(a)
+#     a+=2
+
+
+
+#functions
+def add(a,b):
+    return a + b
+
+print(add(1,3))
+print(add(5,6))
