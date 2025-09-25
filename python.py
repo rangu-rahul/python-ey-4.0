@@ -65,6 +65,48 @@
 
 
 
-#tuple
-tuple = (1, 2, 3, 4, 5)
-print(tuple)
+# #tuple
+# tuple = (1, 2, 3, 4, 5)
+# print(type(tuple))
+
+# set = {1, 2, 3, 4, 5}
+# print(type(set))
+
+# dict = {"name": "Rahul", "age": 25, "phone": "91XXX53961"}
+# print(type(dict))
+
+# list = [1, 2, 3, 4, 5]
+# print(type(list))
+
+
+
+# a = [1, "rahul", 2.5, True]
+# b = {80,90}
+# c = (1,2,3,4)
+# d = {"name": "Rahul", "age": 25, "phone": "91XXX53961"}
+
+# print(a[2])
+# print(list(b)[0])  # Convert set to list to access by index
+# print(c[3])
+# print(d["name"])
+
+
+
+#if-else
+# number = int(input("Enter your number: "))
+# # if number % 2 == 0:
+# #     print("Even")
+# # else:
+# #     print("Odd")
+
+# print("even" if number %  2 == 0 else "odd")
+    
+    
+percentage = int(input("Enter your percentage: "))
+# if percentage > 75:
+#     print("You cant enter the Program", percentage)
+# else:
+#     print("You can enter the Program", percentage)
+
+
+print("you can enter the program" if percentage > 75 else "you cant enter the program")
