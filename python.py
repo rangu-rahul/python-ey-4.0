@@ -171,8 +171,21 @@
 
 
 #functions
-def add(a,b):
-    return a + b
+# def add(a,b):
+#     return a + b
 
-print(add(1,3))
-print(add(5,6))
+# print(add(1,3))
+# print(add(5,6))
+
+
+
+
+name = str(input("Enter the name: "))
+age = int(input("Enter the age: "))
+weight = float(input("Enter the weight: "))
+height = float(input("Enter the Height: "))
+cal = (weight/height)**2
+if(cal >25):
+    print(name, "and", age, "and", weight, "and", height, "is:", "Overweight")
+else:
+    print(name, "and", age, "and", weight, "and", height, "is:", "Underweight")
