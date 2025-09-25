@@ -179,13 +179,58 @@
 
 
 
+#bmi calculator
+# name = str(input("Enter the name: "))
+# age = int(input("Enter the age: "))
+# weight = float(input("Enter the weight: "))
+# height = float(input("Enter the Height: "))
+# height_in_meters = float(height) / 100
+# bmi = (weight / height_in_meters ** 2)
+# if (bmi < 18.5):
+#     print("underweight")
+# elif (bmi >= 18.5 and bmi <= 24.9):
+#     print("normal weight")
+# elif (bmi >= 25 and bmi <= 29.9):
+#     print("overweight")
+# elif (bmi >= 30.0 and bmi <= 34.9):
+#     print("obesity")
+# else:
+#     print("severe Obesity")
+# print(bmi)
 
-name = str(input("Enter the name: "))
-age = int(input("Enter the age: "))
-weight = float(input("Enter the weight: "))
-height = float(input("Enter the Height: "))
-cal = (weight/height)**2
-if(cal >25):
-    print(name, "and", age, "and", weight, "and", height, "is:", "Overweight")
-else:
-    print(name, "and", age, "and", weight, "and", height, "is:", "Underweight")
+
+#
+
+# x = y = z = 25
+# a = (x**2 + y**2 + z**2)
+# print(a)
+
+# base = float(input("Enter the base: "))
+# height = float(input("Enter the height: "))
+# area = 1/2 * base * height
+# print("Area of the triangle is:", area)
+# print("Area of the triangle is: {:.2f}".format(area))
+
+
+
+
+#exception handling
+
+
+# try:
+#     x = 10/0
+# except:
+#     print("Error: Cannot divide by zero")
+    
+    
+    
+# try:
+#     dict = {"name": "Rahul", "age": 25, "phone": "91XXX53961"}
+#     print(dict["name"])
+# except ZeroDivisionError:
+#     print("Error: Cannot divide by zero")
+# except KeyError:
+#     print("Error: Key not found")
+
+
+
