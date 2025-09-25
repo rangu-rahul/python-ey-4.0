@@ -102,11 +102,30 @@
 # print("even" if number %  2 == 0 else "odd")
     
     
-percentage = int(input("Enter your percentage: "))
-# if percentage > 75:
-#     print("You cant enter the Program", percentage)
-# else:
-#     print("You can enter the Program", percentage)
+# percentage = int(input("Enter your percentage: "))
+# # if percentage > 75:
+# #     print("You cant enter the Program", percentage)
+# # else:
+# #     print("You can enter the Program", percentage)
 
 
-print("you can enter the program" if percentage > 75 else "you cant enter the program")
+# print("you can enter the program" if percentage > 75 else "you cant enter the program")
+
+
+username = "rahulrangu"
+password = "Rahul@123"
+
+a = input("Enter your username: ")
+b = input("Enter your password: ")
+
+# print("Login Successfull" if a == username and b == password else "Login Failed")
+
+if(a == username and b == password):
+    print("Login Successfull")
+else:
+    print("Login Failed")
+
+
+
+
+
